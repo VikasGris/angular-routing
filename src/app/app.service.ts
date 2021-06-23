@@ -10,7 +10,7 @@ export type User = {
 export class AppService {
   constructor() {}
 
-  public users: User[] = [{ id: 1, name: 'Vikas', address: 'Ppm' }];
+  public users: User[] = [{ id: 1, name: 'Gopi', address: 'home address' }];
   public count = 2;
 
   public getUser(id) {
