@@ -40,4 +40,10 @@ export class AddEditUserComponent {
     }
     this.router.navigateByUrl('/users');
   }
+
+  canDeactivate() {
+    return new Promise((resolve, reject) => {
+      resolve(confirm('Want to exit'));
+    });
+  }
 }
